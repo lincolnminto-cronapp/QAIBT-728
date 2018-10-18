@@ -1,0 +1,33 @@
+{
+  "name": "cronapp-rad-project-mobile-cordova",
+  "homepage": "http://www.techne.com.br",
+  "authors": [
+    "CronosPaas"
+  ],
+  "description": "cronapp-rad-project-mobile-cordova",
+  "main": "",
+  "keywords": [
+    "cordova",
+    "mobile",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "plugins/",
+    "test",
+    "tests",
+    "package.json",
+    "src"
+  ],
+  "dependencies": {
+    "cronapp-framework-mobile-js": "478251379acdb037b746c92a53f1bd76af6535e7",
+    "cronapp-common-js": "2bd270068bbbba0eef641299bea0accb2b296dd5",
+    "cronapi-js": "6f187663b99608008adccaa4cd34eec300e78f85"
+  },
+  "resolutions": {
+    "angular": ">=1.2.0 <1.8.0"
+  }
+}
